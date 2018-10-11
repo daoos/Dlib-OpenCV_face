@@ -35,7 +35,6 @@ if __name__ == '__main__':
                     cv2.circle(frame, (shape.part(i).x, shape.part(i).y), 5, (0, 255, 0), -1, 8)
                     cv2.putText(frame, str(i), (shape.part(i).x, shape.part(i).y), cv2.FONT_HERSHEY_SIMPLEX, 0.5,
                                 (255, 255, 255))
-
         cv2.imshow("find me", frame)
 
         #等待10毫秒看是否有按键输入
